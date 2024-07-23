@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Brainwave
+
+[![Brainwave](./public/brainwave.png)](https://brainwaveai-landing.vercel.app/)
+
+**Brainwave** is a Next.js-powered website designed to help users chat smarter, not harder. With BrainwaveCurve, the landing page for Brainwave, you can explore the full potential of AI chatting. Unleash the power of AI to enhance your productivity. Brainwave is an open AI chat app crafted to boost your efficiency and help you achieve more with advanced AI technology.
+
+## Features
+
+- **Ask Anything**: Quickly find answers to your questions without having to search through multiple sources.
+- **Explore More**: Discover the full capabilities of Brainwave as it understands and responds to your queries.
+- **Improve Everyday**: The app uses natural language processing to understand user queries and provide accurate and relevant responses.
+- **Connect Everywhere**: Access the AI chatbot from anywhere, on any device, making it more accessible and convenient.
 
 ## Getting Started
 
-First, run the development server:
+### Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the repository:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/your-username/brainwave.git
+   cd brainwave
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Install the dependencies:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The app will automatically reload if you make edits.
 
-To learn more about Next.js, take a look at the following resources:
+### Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Fork the repository
+- Create a branch
+  ```bash
+  git checkout -b fix/amazingFix
+  ```
+- Commit your changes and push to your branch
+  ```bash
+  git commit -m "made an amazingFix"
+  git push origin fix/amazingFix
+  ```
+- Open a pull request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Distributed under the MIT License. See `LICENSE` for more information.
